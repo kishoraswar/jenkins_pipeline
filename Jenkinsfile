@@ -32,6 +32,7 @@ pipeline {
                   steps{
                     sh "mvn test"
                     echo "test successful";
+                    echo "test successful";
                 } 
             }
             
